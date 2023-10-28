@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+section{
+    position:relative;
+    width:100%;
+    min-height: 92vh;
+    padding:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFC7C5;
+    transition: 0.5;
+    padding-bottom: 20px;
+}
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:20%;
+     display: flex;
+    justify-content: space-between;
+    background-color:#E5FFC7;
+    
+}
+header h1{
+    margin-top:35px;
+}
+header.logo {
+    position: relative;
+    width: 20%; /* Adjust the percentage to your desired size */
+    height: auto;
+   padding:20px 20px ;/* Adjust the bottom padding */
+   top:50;
+   left:50px;
+
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    padding: 20px 0;
+
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color:black;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.content{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+}
+.content .textbox h2
+{
+    color: black;
+    text-justify: auto; 
+    
+}
+.content.textbox p{
+    color:black;
+}
+.content .textbox button{
+    display: inline-block;
+    margin-top:20px;
+    margin-bottom: auto;
+    background:#E5FFC7;
+    color:black;
+    border-radius:0px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    
+    margin-left: 280px;
+
+}
+.content .imgBox
+{
+    width: 600px;
+  
+   
+    margin: top 5px;
+    
+   
+    padding-bottom: 0px;
+    float: left;
+    
+}
+.content .imgBox img{
+    max-width: 260px;
+    
+    
+}
+ 
+article .info{
+    background-color: #E5FFC7;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+article .info ul{
+    position: relative;
+    display: flex;
+    padding: 10px 0;
+
+}
+article .info ul li{
+    list-style: none;
+}
+article .info ul li {
+    display: inline-block;
+    color:black;
+    font-weight: 400;
+    margin-left: 100px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+  li a:hover:not(.active) {
+    background-color: #FFC7C5 ;
+  }
+  
+  .active {
+    background-color:#FFC7C5;
+  }
